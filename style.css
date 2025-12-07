@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    font-family: ubuntu;
+    font-family: 'Zen Dots', sans-serif;
 }
 .header{
     z-index: 1;
@@ -26,13 +26,14 @@ body{
 }
 .header ul li a{
     color: #ffffff;
-    text-transform: 'Andale Mono';
+    font-family: 'Zen Dots', sans-serif;
     font-size: 20px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     position: relative;
     text-decoration: none;
     text-shadow: 0 0 10px rgb(142, 242, 255),
                  0 0 20px rgba(255, 255, 255, 0.623);
+    top: 5px;
 }
 
 .header h2{
@@ -50,7 +51,7 @@ body{
     font-size: 25px;
     color: #ffffff;
     margin-top: 5%;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .header p{
@@ -90,6 +91,10 @@ h2 {
 
 p {
   text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+h4 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
 }
 
 .header ul li a::after{
@@ -168,9 +173,4 @@ p {
 
 .container {
     height: 100vh;
-}
-
-@font-face {
-    font-family: 'Days';
-    src: url();
 }
