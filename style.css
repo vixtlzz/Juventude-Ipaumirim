@@ -174,3 +174,19 @@ h4 {
 .container {
     height: 100vh;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.social-icons a i {
+    color: #fd5c40;
+    text-shadow:
+        0 0 5px #ffb361af,
+        0 0 10px #fd5c40,
+        0 0 20px #fd5c40c5;
+}
